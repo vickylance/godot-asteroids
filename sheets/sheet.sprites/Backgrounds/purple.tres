@@ -3,6 +3,5 @@
 [ext_resource path="res://sheets/sheet.png" type="Texture" id=1]
 
 [resource]
-flags = 7
 atlas = ExtResource( 1 )
 region = Rect2( 1, 517, 256, 256 )

@@ -1,24 +1,37 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://scenes/Player/Player.gd" type="Script" id=1]
-[ext_resource path="res://icon.png" type="Texture" id=2]
-
-[sub_resource type="PhysicsMaterial" id=1]
+[ext_resource path="res://sheets/sheet.sprites/playerShip2_blue.tres" type="Texture" id=2]
+[ext_resource path="res://scenes/Laser/Laser.tscn" type="PackedScene" id=3]
 
 [sub_resource type="CircleShape2D" id=2]
-radius = 64.0
+radius = 42.8566
 
-[node name="Player" type="RigidBody2D"]
-mass = 40.0
-physics_material_override = SubResource( 1 )
-gravity_scale = 0.0
+[node name="Player" type="KinematicBody2D"]
+z_index = 10
+collision_layer = 2
+collision_mask = 13
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
+ACCELERATION = 2000
+CROUCH_SPEED = 200
+NORMAL_SPEED = 400
+SPRINT_SPEED = 800
+FRICTION = 400
+FIRE_RATE = 5.0
+bullet_scene = ExtResource( 3 )
 
 [node name="Sprite" type="Sprite" parent="."]
+rotation = -1.5708
 texture = ExtResource( 2 )
+__meta__ = {
+"_editor_description_": ""
+}
 
 [node name="Shape" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 5 )
 shape = SubResource( 2 )
+
+[node name="Bullets" type="Node" parent="."]
+
+[node name="GunNozzle" type="Position2D" parent="."]
+position = Vector2( 0, -38 )

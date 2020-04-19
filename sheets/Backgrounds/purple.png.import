@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/purple.png-6966a037714e4ea8ff1ff96bee517d10.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
+source_file="res://sheets/Backgrounds/purple.png"
+dest_files=[ "res://.import/purple.png-6966a037714e4ea8ff1ff96bee517d10.stex" ]
 
 [params]
 
