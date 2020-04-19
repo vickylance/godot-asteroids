@@ -1,0 +1,4488 @@
+{
+	"textures": [
+		{
+			"image": "sheet.png",
+			"size": {
+				"w": 1023,
+				"h": 1171
+			},
+			"sprites": [
+				{
+					"filename": "Backgrounds/black",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Backgrounds/blue",
+					"region": {
+						"x": 1,
+						"y": 259,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Backgrounds/darkPurple",
+					"region": {
+						"x": 259,
+						"y": 1,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Backgrounds/purple",
+					"region": {
+						"x": 1,
+						"y": 517,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/shield3",
+					"region": {
+						"x": 259,
+						"y": 259,
+						"w": 137,
+						"h": 144
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/shield2",
+					"region": {
+						"x": 517,
+						"y": 1,
+						"w": 119,
+						"h": 143
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/buttonBlue",
+					"region": {
+						"x": 1,
+						"y": 775,
+						"w": 222,
+						"h": 39
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/buttonGreen",
+					"region": {
+						"x": 638,
+						"y": 1,
+						"w": 222,
+						"h": 39
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/buttonRed",
+					"region": {
+						"x": 1,
+						"y": 816,
+						"w": 222,
+						"h": 39
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/buttonYellow",
+					"region": {
+						"x": 638,
+						"y": 42,
+						"w": 222,
+						"h": 39
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/shield1",
+					"region": {
+						"x": 259,
+						"y": 405,
+						"w": 108,
+						"h": 133
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_big2",
+					"region": {
+						"x": 1,
+						"y": 857,
+						"w": 120,
+						"h": 98
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_big2",
+					"region": {
+						"x": 1,
+						"y": 957,
+						"w": 120,
+						"h": 98
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_big4",
+					"region": {
+						"x": 398,
+						"y": 259,
+						"w": 98,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_big4",
+					"region": {
+						"x": 517,
+						"y": 146,
+						"w": 98,
+						"h": 96
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Damage/playerShip2_damage2",
+					"region": {
+						"x": 259,
+						"y": 540,
+						"w": 76,
+						"h": 112
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Damage/playerShip2_damage3",
+					"region": {
+						"x": 123,
+						"y": 857,
+						"w": 76,
+						"h": 112
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlack2",
+					"region": {
+						"x": 1,
+						"y": 1057,
+						"w": 84,
+						"h": 104
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/speed",
+					"region": {
+						"x": 1,
+						"y": 1163,
+						"w": 108,
+						"h": 7
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Damage/playerShip2_damage1",
+					"region": {
+						"x": 259,
+						"y": 654,
+						"w": 76,
+						"h": 111
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_big1",
+					"region": {
+						"x": 862,
+						"y": 1,
+						"w": 101,
+						"h": 84
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlue2",
+					"region": {
+						"x": 87,
+						"y": 1057,
+						"w": 84,
+						"h": 104
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_big1",
+					"region": {
+						"x": 123,
+						"y": 971,
+						"w": 101,
+						"h": 84
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip2_blue",
+					"region": {
+						"x": 201,
+						"y": 857,
+						"w": 75,
+						"h": 112
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyGreen2",
+					"region": {
+						"x": 173,
+						"y": 1057,
+						"w": 84,
+						"h": 104
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "ufoBlue",
+					"region": {
+						"x": 638,
+						"y": 83,
+						"w": 91,
+						"h": 91
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "ufoGreen",
+					"region": {
+						"x": 731,
+						"y": 83,
+						"w": 91,
+						"h": 91
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip2_green",
+					"region": {
+						"x": 337,
+						"y": 540,
+						"w": 75,
+						"h": 112
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip2_orange",
+					"region": {
+						"x": 337,
+						"y": 654,
+						"w": 75,
+						"h": 112
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "ufoRed",
+					"region": {
+						"x": 824,
+						"y": 87,
+						"w": 91,
+						"h": 91
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip2_red",
+					"region": {
+						"x": 369,
+						"y": 405,
+						"w": 75,
+						"h": 112
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Damage/playerShip1_damage1",
+					"region": {
+						"x": 917,
+						"y": 87,
+						"w": 76,
+						"h": 99
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "ufoYellow",
+					"region": {
+						"x": 617,
+						"y": 176,
+						"w": 91,
+						"h": 91
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlack1",
+					"region": {
+						"x": 710,
+						"y": 176,
+						"w": 84,
+						"h": 93
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlack3",
+					"region": {
+						"x": 796,
+						"y": 180,
+						"w": 84,
+						"h": 103
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlack5",
+					"region": {
+						"x": 882,
+						"y": 188,
+						"w": 84,
+						"h": 97
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlack4",
+					"region": {
+						"x": 226,
+						"y": 971,
+						"w": 84,
+						"h": 82
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyRed2",
+					"region": {
+						"x": 259,
+						"y": 1055,
+						"w": 84,
+						"h": 104
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingBlue_7",
+					"region": {
+						"x": 398,
+						"y": 357,
+						"w": 83,
+						"h": 43
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlue3",
+					"region": {
+						"x": 446,
+						"y": 402,
+						"w": 84,
+						"h": 103
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue13",
+					"region": {
+						"x": 259,
+						"y": 1161,
+						"w": 57,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Damage/playerShip1_damage2",
+					"region": {
+						"x": 498,
+						"y": 259,
+						"w": 76,
+						"h": 99
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlue1",
+					"region": {
+						"x": 576,
+						"y": 269,
+						"w": 84,
+						"h": 93
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue12",
+					"region": {
+						"x": 517,
+						"y": 244,
+						"w": 57,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlue5",
+					"region": {
+						"x": 662,
+						"y": 271,
+						"w": 84,
+						"h": 97
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_big3",
+					"region": {
+						"x": 748,
+						"y": 285,
+						"w": 89,
+						"h": 82
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_big3",
+					"region": {
+						"x": 839,
+						"y": 287,
+						"w": 89,
+						"h": 82
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Damage/playerShip1_damage3",
+					"region": {
+						"x": 930,
+						"y": 287,
+						"w": 76,
+						"h": 100
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_med3",
+					"region": {
+						"x": 483,
+						"y": 360,
+						"w": 45,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyGreen3",
+					"region": {
+						"x": 414,
+						"y": 519,
+						"w": 84,
+						"h": 103
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyRed3",
+					"region": {
+						"x": 414,
+						"y": 624,
+						"w": 84,
+						"h": 103
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyBlue4",
+					"region": {
+						"x": 414,
+						"y": 729,
+						"w": 84,
+						"h": 82
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip1_blue",
+					"region": {
+						"x": 500,
+						"y": 507,
+						"w": 75,
+						"h": 99
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip1_green",
+					"region": {
+						"x": 500,
+						"y": 608,
+						"w": 75,
+						"h": 99
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip1_orange",
+					"region": {
+						"x": 500,
+						"y": 709,
+						"w": 75,
+						"h": 99
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitBlue_4",
+					"region": {
+						"x": 345,
+						"y": 768,
+						"w": 67,
+						"h": 47
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun08",
+					"region": {
+						"x": 446,
+						"y": 507,
+						"w": 47,
+						"h": 10
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyGreen5",
+					"region": {
+						"x": 532,
+						"y": 364,
+						"w": 84,
+						"h": 97
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingBlue_4",
+					"region": {
+						"x": 532,
+						"y": 463,
+						"w": 80,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip1_red",
+					"region": {
+						"x": 577,
+						"y": 507,
+						"w": 75,
+						"h": 99
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip3_blue",
+					"region": {
+						"x": 577,
+						"y": 608,
+						"w": 75,
+						"h": 98
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip3_green",
+					"region": {
+						"x": 577,
+						"y": 708,
+						"w": 75,
+						"h": 98
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyGreen1",
+					"region": {
+						"x": 618,
+						"y": 370,
+						"w": 84,
+						"h": 93
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Damage/playerShip3_damage1",
+					"region": {
+						"x": 704,
+						"y": 370,
+						"w": 76,
+						"h": 97
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyRed5",
+					"region": {
+						"x": 782,
+						"y": 371,
+						"w": 84,
+						"h": 97
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_med2",
+					"region": {
+						"x": 614,
+						"y": 465,
+						"w": 45,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip3_orange",
+					"region": {
+						"x": 654,
+						"y": 507,
+						"w": 75,
+						"h": 98
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "playerShip3_red",
+					"region": {
+						"x": 654,
+						"y": 607,
+						"w": 75,
+						"h": 98
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Damage/playerShip3_damage2",
+					"region": {
+						"x": 654,
+						"y": 707,
+						"w": 76,
+						"h": 97
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitBlue_1",
+					"region": {
+						"x": 661,
+						"y": 465,
+						"w": 40,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyGreen4",
+					"region": {
+						"x": 868,
+						"y": 389,
+						"w": 84,
+						"h": 82
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitBlue_3",
+					"region": {
+						"x": 954,
+						"y": 389,
+						"w": 61,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire18",
+					"region": {
+						"x": 868,
+						"y": 371,
+						"w": 41,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitBlue_2",
+					"region": {
+						"x": 965,
+						"y": 1,
+						"w": 56,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitGreen_1",
+					"region": {
+						"x": 965,
+						"y": 45,
+						"w": 40,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue15",
+					"region": {
+						"x": 318,
+						"y": 1161,
+						"w": 57,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitGreen_3",
+					"region": {
+						"x": 225,
+						"y": 775,
+						"w": 61,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyRed1",
+					"region": {
+						"x": 731,
+						"y": 470,
+						"w": 84,
+						"h": 93
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Damage/playerShip3_damage3",
+					"region": {
+						"x": 731,
+						"y": 565,
+						"w": 76,
+						"h": 97
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Enemies/enemyRed4",
+					"region": {
+						"x": 817,
+						"y": 473,
+						"w": 84,
+						"h": 82
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitBlue_7",
+					"region": {
+						"x": 731,
+						"y": 664,
+						"w": 71,
+						"h": 41
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitBlue_0",
+					"region": {
+						"x": 732,
+						"y": 707,
+						"w": 75,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitBlue_5",
+					"region": {
+						"x": 732,
+						"y": 760,
+						"w": 75,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitRed_3",
+					"region": {
+						"x": 903,
+						"y": 473,
+						"w": 61,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitGreen_2",
+					"region": {
+						"x": 966,
+						"y": 451,
+						"w": 56,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitRed_2",
+					"region": {
+						"x": 966,
+						"y": 495,
+						"w": 56,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingBlue_2",
+					"region": {
+						"x": 817,
+						"y": 557,
+						"w": 84,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitGreen_0",
+					"region": {
+						"x": 809,
+						"y": 585,
+						"w": 75,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitYellow_1",
+					"region": {
+						"x": 903,
+						"y": 535,
+						"w": 61,
+						"h": 60
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitYellow_6",
+					"region": {
+						"x": 966,
+						"y": 539,
+						"w": 56,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingBlue_0",
+					"region": {
+						"x": 886,
+						"y": 597,
+						"w": 78,
+						"h": 45
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitGreen_7",
+					"region": {
+						"x": 809,
+						"y": 638,
+						"w": 75,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingGreen_0",
+					"region": {
+						"x": 886,
+						"y": 644,
+						"w": 78,
+						"h": 45
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitRed_0",
+					"region": {
+						"x": 809,
+						"y": 688,
+						"w": 75,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitYellow_7",
+					"region": {
+						"x": 809,
+						"y": 741,
+						"w": 75,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingBlue_3",
+					"region": {
+						"x": 886,
+						"y": 691,
+						"w": 75,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitRed_5",
+					"region": {
+						"x": 886,
+						"y": 744,
+						"w": 75,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingGreen_2",
+					"region": {
+						"x": 809,
+						"y": 794,
+						"w": 84,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue08",
+					"region": {
+						"x": 966,
+						"y": 583,
+						"w": 46,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue09",
+					"region": {
+						"x": 966,
+						"y": 633,
+						"w": 46,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitBlue_6",
+					"region": {
+						"x": 895,
+						"y": 794,
+						"w": 67,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen14",
+					"region": {
+						"x": 288,
+						"y": 767,
+						"w": 46,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingRed_0",
+					"region": {
+						"x": 288,
+						"y": 817,
+						"w": 84,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingGreen_3",
+					"region": {
+						"x": 278,
+						"y": 845,
+						"w": 75,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingRed_2",
+					"region": {
+						"x": 278,
+						"y": 898,
+						"w": 75,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingYellow_2",
+					"region": {
+						"x": 414,
+						"y": 813,
+						"w": 84,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitYellow_3",
+					"region": {
+						"x": 500,
+						"y": 810,
+						"w": 75,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingYellow_3",
+					"region": {
+						"x": 577,
+						"y": 808,
+						"w": 75,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingBlue_5",
+					"region": {
+						"x": 654,
+						"y": 806,
+						"w": 69,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingRed_7",
+					"region": {
+						"x": 725,
+						"y": 810,
+						"w": 78,
+						"h": 45
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingGreen_7",
+					"region": {
+						"x": 805,
+						"y": 822,
+						"w": 83,
+						"h": 43
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingBlue_1",
+					"region": {
+						"x": 890,
+						"y": 838,
+						"w": 72,
+						"h": 37
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen01",
+					"region": {
+						"x": 374,
+						"y": 817,
+						"w": 38,
+						"h": 37
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingRed_6",
+					"region": {
+						"x": 414,
+						"y": 841,
+						"w": 83,
+						"h": 43
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingBlue_6",
+					"region": {
+						"x": 499,
+						"y": 860,
+						"w": 74,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingGreen_4",
+					"region": {
+						"x": 575,
+						"y": 861,
+						"w": 80,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitGreen_4",
+					"region": {
+						"x": 657,
+						"y": 859,
+						"w": 67,
+						"h": 47
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingGreen_5",
+					"region": {
+						"x": 726,
+						"y": 857,
+						"w": 69,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingYellow_7",
+					"region": {
+						"x": 797,
+						"y": 867,
+						"w": 83,
+						"h": 43
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingRed_3",
+					"region": {
+						"x": 882,
+						"y": 877,
+						"w": 80,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/beamLong1",
+					"region": {
+						"x": 278,
+						"y": 951,
+						"w": 67,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingRed_4",
+					"region": {
+						"x": 312,
+						"y": 968,
+						"w": 69,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/things_bronze",
+					"region": {
+						"x": 312,
+						"y": 1021,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/turretBase_small",
+					"region": {
+						"x": 703,
+						"y": 469,
+						"w": 26,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen15",
+					"region": {
+						"x": 355,
+						"y": 856,
+						"w": 46,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed08",
+					"region": {
+						"x": 355,
+						"y": 906,
+						"w": 46,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingYellow_0",
+					"region": {
+						"x": 403,
+						"y": 886,
+						"w": 78,
+						"h": 45
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingYellow_4",
+					"region": {
+						"x": 403,
+						"y": 933,
+						"w": 80,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingGreen_6",
+					"region": {
+						"x": 383,
+						"y": 977,
+						"w": 74,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingRed_5",
+					"region": {
+						"x": 346,
+						"y": 1021,
+						"w": 74,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingYellow_5",
+					"region": {
+						"x": 345,
+						"y": 1065,
+						"w": 69,
+						"h": 51
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitGreen_6",
+					"region": {
+						"x": 345,
+						"y": 1118,
+						"w": 71,
+						"h": 41
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen03",
+					"region": {
+						"x": 377,
+						"y": 1161,
+						"w": 57,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed09",
+					"region": {
+						"x": 422,
+						"y": 1021,
+						"w": 46,
+						"h": 48
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitGreen_5",
+					"region": {
+						"x": 416,
+						"y": 1071,
+						"w": 67,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitRed_6",
+					"region": {
+						"x": 418,
+						"y": 1115,
+						"w": 67,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitYellow_4",
+					"region": {
+						"x": 459,
+						"y": 977,
+						"w": 67,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitRed_4",
+					"region": {
+						"x": 470,
+						"y": 1021,
+						"w": 67,
+						"h": 47
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingYellow_6",
+					"region": {
+						"x": 485,
+						"y": 1070,
+						"w": 74,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitRed_7",
+					"region": {
+						"x": 487,
+						"y": 1114,
+						"w": 71,
+						"h": 41
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue14",
+					"region": {
+						"x": 487,
+						"y": 1157,
+						"w": 57,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen02",
+					"region": {
+						"x": 546,
+						"y": 1157,
+						"w": 57,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitYellow_5",
+					"region": {
+						"x": 560,
+						"y": 1114,
+						"w": 71,
+						"h": 41
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen06",
+					"region": {
+						"x": 605,
+						"y": 1157,
+						"w": 57,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/engine4",
+					"region": {
+						"x": 968,
+						"y": 188,
+						"w": 45,
+						"h": 49
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_med1",
+					"region": {
+						"x": 968,
+						"y": 239,
+						"w": 43,
+						"h": 43
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/beamLong2",
+					"region": {
+						"x": 483,
+						"y": 904,
+						"w": 64,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingGreen_1",
+					"region": {
+						"x": 485,
+						"y": 931,
+						"w": 72,
+						"h": 37
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitYellow_2",
+					"region": {
+						"x": 559,
+						"y": 905,
+						"w": 67,
+						"h": 47
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingRed_1",
+					"region": {
+						"x": 559,
+						"y": 954,
+						"w": 72,
+						"h": 37
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/wingYellow_1",
+					"region": {
+						"x": 628,
+						"y": 908,
+						"w": 72,
+						"h": 37
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_med1",
+					"region": {
+						"x": 633,
+						"y": 947,
+						"w": 43,
+						"h": 43
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/beam3",
+					"region": {
+						"x": 528,
+						"y": 970,
+						"w": 29,
+						"h": 29
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue01",
+					"region": {
+						"x": 347,
+						"y": 956,
+						"w": 54,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/beam0",
+					"region": {
+						"x": 678,
+						"y": 947,
+						"w": 31,
+						"h": 43
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen07",
+					"region": {
+						"x": 559,
+						"y": 993,
+						"w": 57,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral0",
+					"region": {
+						"x": 617,
+						"y": 146,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral1",
+					"region": {
+						"x": 369,
+						"y": 519,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral2",
+					"region": {
+						"x": 390,
+						"y": 519,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire19",
+					"region": {
+						"x": 225,
+						"y": 837,
+						"w": 41,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed12",
+					"region": {
+						"x": 633,
+						"y": 992,
+						"w": 57,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed13",
+					"region": {
+						"x": 633,
+						"y": 1007,
+						"w": 57,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed14",
+					"region": {
+						"x": 633,
+						"y": 1018,
+						"w": 57,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/beam1",
+					"region": {
+						"x": 692,
+						"y": 992,
+						"w": 20,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed15",
+					"region": {
+						"x": 633,
+						"y": 1033,
+						"w": 57,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun06",
+					"region": {
+						"x": 576,
+						"y": 244,
+						"w": 38,
+						"h": 17
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/engine5",
+					"region": {
+						"x": 995,
+						"y": 87,
+						"w": 24,
+						"h": 44
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/beam6",
+					"region": {
+						"x": 995,
+						"y": 133,
+						"w": 23,
+						"h": 43
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue16",
+					"region": {
+						"x": 966,
+						"y": 683,
+						"w": 54,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/turretBase_big",
+					"region": {
+						"x": 963,
+						"y": 698,
+						"w": 41,
+						"h": 41
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitRed_1",
+					"region": {
+						"x": 963,
+						"y": 741,
+						"w": 40,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/beam4",
+					"region": {
+						"x": 1005,
+						"y": 741,
+						"w": 17,
+						"h": 41
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue11",
+					"region": {
+						"x": 964,
+						"y": 783,
+						"w": 37,
+						"h": 38
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/bold_silver",
+					"region": {
+						"x": 1003,
+						"y": 784,
+						"w": 19,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/cockpitYellow_0",
+					"region": {
+						"x": 964,
+						"y": 823,
+						"w": 40,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue10",
+					"region": {
+						"x": 964,
+						"y": 865,
+						"w": 37,
+						"h": 37
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/bolt_bronze",
+					"region": {
+						"x": 1003,
+						"y": 865,
+						"w": 19,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/scratch1",
+					"region": {
+						"x": 1006,
+						"y": 698,
+						"w": 16,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/bolt_gold",
+					"region": {
+						"x": 1003,
+						"y": 897,
+						"w": 19,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen16",
+					"region": {
+						"x": 964,
+						"y": 904,
+						"w": 37,
+						"h": 37
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/scratch2",
+					"region": {
+						"x": 1006,
+						"y": 816,
+						"w": 16,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen10",
+					"region": {
+						"x": 561,
+						"y": 1004,
+						"w": 54,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen11",
+					"region": {
+						"x": 633,
+						"y": 1044,
+						"w": 54,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed01",
+					"region": {
+						"x": 561,
+						"y": 1019,
+						"w": 54,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/beam2",
+					"region": {
+						"x": 539,
+						"y": 1030,
+						"w": 31,
+						"h": 38
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/engine2",
+					"region": {
+						"x": 561,
+						"y": 1070,
+						"w": 28,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/engine1",
+					"region": {
+						"x": 572,
+						"y": 1030,
+						"w": 23,
+						"h": 38
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupBlue",
+					"region": {
+						"x": 597,
+						"y": 1030,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed16",
+					"region": {
+						"x": 633,
+						"y": 1055,
+						"w": 54,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral3",
+					"region": {
+						"x": 1003,
+						"y": 929,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/engine3",
+					"region": {
+						"x": 702,
+						"y": 908,
+						"w": 22,
+						"h": 27
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun09",
+					"region": {
+						"x": 726,
+						"y": 910,
+						"w": 52,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun10",
+					"region": {
+						"x": 726,
+						"y": 932,
+						"w": 52,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed11",
+					"region": {
+						"x": 780,
+						"y": 912,
+						"w": 37,
+						"h": 37
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed10",
+					"region": {
+						"x": 819,
+						"y": 912,
+						"w": 36,
+						"h": 37
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupBlue_bolt",
+					"region": {
+						"x": 711,
+						"y": 954,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupBlue_shield",
+					"region": {
+						"x": 747,
+						"y": 954,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupBlue_star",
+					"region": {
+						"x": 714,
+						"y": 989,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupGreen",
+					"region": {
+						"x": 783,
+						"y": 951,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupGreen_bolt",
+					"region": {
+						"x": 819,
+						"y": 951,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupGreen_shield",
+					"region": {
+						"x": 750,
+						"y": 989,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupGreen_star",
+					"region": {
+						"x": 786,
+						"y": 986,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupRed",
+					"region": {
+						"x": 822,
+						"y": 986,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun03",
+					"region": {
+						"x": 714,
+						"y": 1024,
+						"w": 41,
+						"h": 20
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_tiny2",
+					"region": {
+						"x": 1006,
+						"y": 721,
+						"w": 16,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_tiny2",
+					"region": {
+						"x": 1006,
+						"y": 839,
+						"w": 16,
+						"h": 15
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_small1",
+					"region": {
+						"x": 757,
+						"y": 1024,
+						"w": 28,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupRed_bolt",
+					"region": {
+						"x": 787,
+						"y": 1021,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupRed_shield",
+					"region": {
+						"x": 823,
+						"y": 1021,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_tiny1",
+					"region": {
+						"x": 528,
+						"y": 1001,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue03",
+					"region": {
+						"x": 748,
+						"y": 271,
+						"w": 37,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue05",
+					"region": {
+						"x": 436,
+						"y": 1159,
+						"w": 37,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/beam5",
+					"region": {
+						"x": 591,
+						"y": 1070,
+						"w": 25,
+						"h": 40
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupRed_star",
+					"region": {
+						"x": 618,
+						"y": 1070,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupYellow",
+					"region": {
+						"x": 654,
+						"y": 1070,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupYellow_bolt",
+					"region": {
+						"x": 633,
+						"y": 1105,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupYellow_shield",
+					"region": {
+						"x": 669,
+						"y": 1105,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/star_bronze",
+					"region": {
+						"x": 664,
+						"y": 1140,
+						"w": 31,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/star_gold",
+					"region": {
+						"x": 697,
+						"y": 1140,
+						"w": 31,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/pill_blue",
+					"region": {
+						"x": 857,
+						"y": 912,
+						"w": 22,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun04",
+					"region": {
+						"x": 881,
+						"y": 921,
+						"w": 41,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife2_blue",
+					"region": {
+						"x": 924,
+						"y": 921,
+						"w": 37,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/scratch3",
+					"region": {
+						"x": 911,
+						"y": 371,
+						"w": 12,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue02",
+					"region": {
+						"x": 963,
+						"y": 943,
+						"w": 37,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/pill_green",
+					"region": {
+						"x": 857,
+						"y": 935,
+						"w": 22,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun05",
+					"region": {
+						"x": 881,
+						"y": 939,
+						"w": 41,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue04",
+					"region": {
+						"x": 924,
+						"y": 949,
+						"w": 37,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/star1",
+					"region": {
+						"x": 855,
+						"y": 958,
+						"w": 24,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife2_green",
+					"region": {
+						"x": 881,
+						"y": 962,
+						"w": 37,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife2_orange",
+					"region": {
+						"x": 920,
+						"y": 964,
+						"w": 37,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire00",
+					"region": {
+						"x": 963,
+						"y": 958,
+						"w": 40,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun07",
+					"region": {
+						"x": 959,
+						"y": 976,
+						"w": 41,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeralX",
+					"region": {
+						"x": 1005,
+						"y": 950,
+						"w": 17,
+						"h": 17
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife2_red",
+					"region": {
+						"x": 858,
+						"y": 990,
+						"w": 37,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/powerupYellow_star",
+					"region": {
+						"x": 859,
+						"y": 1018,
+						"w": 34,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral4",
+					"region": {
+						"x": 897,
+						"y": 990,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire08",
+					"region": {
+						"x": 918,
+						"y": 992,
+						"w": 40,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire09",
+					"region": {
+						"x": 960,
+						"y": 992,
+						"w": 40,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire10",
+					"region": {
+						"x": 918,
+						"y": 1010,
+						"w": 40,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun00",
+					"region": {
+						"x": 960,
+						"y": 1010,
+						"w": 36,
+						"h": 16
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/star2",
+					"region": {
+						"x": 998,
+						"y": 1010,
+						"w": 24,
+						"h": 25
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral5",
+					"region": {
+						"x": 897,
+						"y": 1011,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue06",
+					"region": {
+						"x": 918,
+						"y": 1028,
+						"w": 37,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen04",
+					"region": {
+						"x": 957,
+						"y": 1028,
+						"w": 37,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral6",
+					"region": {
+						"x": 895,
+						"y": 1032,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserBlue07",
+					"region": {
+						"x": 916,
+						"y": 1043,
+						"w": 37,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen05",
+					"region": {
+						"x": 955,
+						"y": 1043,
+						"w": 37,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_small1",
+					"region": {
+						"x": 994,
+						"y": 1043,
+						"w": 28,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/shield_bronze",
+					"region": {
+						"x": 690,
+						"y": 1073,
+						"w": 30,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/cursor",
+					"region": {
+						"x": 705,
+						"y": 1105,
+						"w": 30,
+						"h": 33
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/star_silver",
+					"region": {
+						"x": 730,
+						"y": 1140,
+						"w": 31,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/shield_gold",
+					"region": {
+						"x": 722,
+						"y": 1073,
+						"w": 30,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/things_gold",
+					"region": {
+						"x": 737,
+						"y": 1105,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/shield_silver",
+					"region": {
+						"x": 754,
+						"y": 1073,
+						"w": 30,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/things_silver",
+					"region": {
+						"x": 786,
+						"y": 1056,
+						"w": 32,
+						"h": 32
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife1_blue",
+					"region": {
+						"x": 820,
+						"y": 1056,
+						"w": 33,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire02",
+					"region": {
+						"x": 786,
+						"y": 1090,
+						"w": 32,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife1_green",
+					"region": {
+						"x": 820,
+						"y": 1084,
+						"w": 33,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife1_orange",
+					"region": {
+						"x": 771,
+						"y": 1106,
+						"w": 33,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife1_red",
+					"region": {
+						"x": 806,
+						"y": 1112,
+						"w": 33,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun01",
+					"region": {
+						"x": 771,
+						"y": 1134,
+						"w": 33,
+						"h": 17
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire03",
+					"region": {
+						"x": 806,
+						"y": 1140,
+						"w": 34,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Parts/gun02",
+					"region": {
+						"x": 763,
+						"y": 1156,
+						"w": 36,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire13",
+					"region": {
+						"x": 801,
+						"y": 1156,
+						"w": 34,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire12",
+					"region": {
+						"x": 837,
+						"y": 1156,
+						"w": 32,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorBrown_small2",
+					"region": {
+						"x": 841,
+						"y": 1112,
+						"w": 29,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire01",
+					"region": {
+						"x": 842,
+						"y": 1140,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire04",
+					"region": {
+						"x": 871,
+						"y": 1156,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen08",
+					"region": {
+						"x": 859,
+						"y": 1053,
+						"w": 37,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife3_blue",
+					"region": {
+						"x": 855,
+						"y": 1068,
+						"w": 32,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire05",
+					"region": {
+						"x": 855,
+						"y": 1096,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_small2",
+					"region": {
+						"x": 872,
+						"y": 1112,
+						"w": 29,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire06",
+					"region": {
+						"x": 875,
+						"y": 1140,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire07",
+					"region": {
+						"x": 904,
+						"y": 1156,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen09",
+					"region": {
+						"x": 937,
+						"y": 1054,
+						"w": 37,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen12",
+					"region": {
+						"x": 898,
+						"y": 1054,
+						"w": 37,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife3_green",
+					"region": {
+						"x": 889,
+						"y": 1069,
+						"w": 32,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed02",
+					"region": {
+						"x": 888,
+						"y": 1097,
+						"w": 37,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife3_orange",
+					"region": {
+						"x": 903,
+						"y": 1112,
+						"w": 32,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire11",
+					"region": {
+						"x": 908,
+						"y": 1140,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire14",
+					"region": {
+						"x": 937,
+						"y": 1156,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/playerLife3_red",
+					"region": {
+						"x": 923,
+						"y": 1069,
+						"w": 32,
+						"h": 26
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed04",
+					"region": {
+						"x": 927,
+						"y": 1097,
+						"w": 37,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/star3",
+					"region": {
+						"x": 937,
+						"y": 1112,
+						"w": 24,
+						"h": 24
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/pill_red",
+					"region": {
+						"x": 957,
+						"y": 1065,
+						"w": 22,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed06",
+					"region": {
+						"x": 981,
+						"y": 1073,
+						"w": 37,
+						"h": 13
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserGreen13",
+					"region": {
+						"x": 966,
+						"y": 1088,
+						"w": 37,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed03",
+					"region": {
+						"x": 966,
+						"y": 1099,
+						"w": 37,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed05",
+					"region": {
+						"x": 966,
+						"y": 1110,
+						"w": 37,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Lasers/laserRed07",
+					"region": {
+						"x": 963,
+						"y": 1121,
+						"w": 37,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire15",
+					"region": {
+						"x": 963,
+						"y": 1132,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "PowerUps/pill_yellow",
+					"region": {
+						"x": 970,
+						"y": 1148,
+						"w": 22,
+						"h": 21
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral7",
+					"region": {
+						"x": 692,
+						"y": 1034,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire16",
+					"region": {
+						"x": 713,
+						"y": 1046,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Effects/fire17",
+					"region": {
+						"x": 746,
+						"y": 1054,
+						"w": 31,
+						"h": 14
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral8",
+					"region": {
+						"x": 1002,
+						"y": 976,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UI/numeral9",
+					"region": {
+						"x": 994,
+						"y": 1148,
+						"w": 19,
+						"h": 19
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "Meteors/meteorGrey_tiny1",
+					"region": {
+						"x": 1002,
+						"y": 1121,
+						"w": 18,
+						"h": 18
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2ecc15f4307f27310c450d1e545c102c:6cc8d7c012f4460c48f09d831043b2f3:05fd26cb8b6a0b7caf28c60684cce6ef$"
+	}
+}

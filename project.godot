@@ -16,12 +16,16 @@ _global_script_class_icons={
 [application]
 
 config/name="Asteroids"
-run/main_scene="res://Main.tscn"
+run/main_scene="res://scenes/Test/Test.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
-Global="*res://Global.gd"
+Global="*res://scripts/Global.gd"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "codeandweb.texturepacker" )
 
 [input]
 
