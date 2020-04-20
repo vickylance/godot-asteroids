@@ -43,6 +43,7 @@ func move(delta: float) -> void:
 	input_vector.x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
 	input_vector.y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	input_vector = input_vector.normalized()
+	get_tree().get_root().get_node("Main/CanvasLayer/Debug").text = str(input_vector)
 	
 	var curr_speed := NORMAL_SPEED
 	if Input.get_action_strength("crouch"):
@@ -77,11 +78,20 @@ func wrap_around() -> void:
 func rotate(delta: float) -> void:
 	# direction
 	var mpos := Vector2.ZERO
+	var angle := 0.0
 	if Global.joystickConnected:
-		mpos = Vector2(Input.get_joy_axis(0, JOY_AXIS_2), Input.get_joy_axis(0, JOY_AXIS_3))
+		print("yolo")
+		var direction_vector := Vector2.ZERO
+		direction_vector.x = Input.get_action_strength("joy_look_right") - Input.get_action_strength("joy_look_left")
+		direction_vector.y = Input.get_action_strength("joy_look_down") - Input.get_action_strength("joy_look_up")
+		mpos = direction_vector.normalized()
+		angle = Vector2.ZERO.angle_to(direction_vector)
+#		mpos = Vector2(Input.get_joy_axis(0, JOY_AXIS_2), Input.get_joy_axis(0, JOY_AXIS_3))
 	else:
 		mpos = get_local_mouse_position()
-	self.rotation += (mpos.angle() + PI/2) * ROTATION_SPEED * delta
+		angle = mpos.angle()
+	get_tree().get_root().get_node("Main/CanvasLayer/Debug").text += str(angle)
+#	self.rotation += (mpos.angle() + PI/2) * ROTATION_SPEED * delta
 
 
 func shoot(delta: float) -> void:

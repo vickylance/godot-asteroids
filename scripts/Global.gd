@@ -2,13 +2,16 @@ extends Node
 
 var isMobile := false
 var isDesktop := false
-
 var joystickConnected = false
+
 
 func _ready() -> void:
 	check_device()
+	if Input.get_connected_joypads().size() > 0:
+		joystickConnected = true
 	if not Input.connect("joy_connection_changed", self, "_on_joy_connection_changed"):
 		print("joystick signal connection failed")
+
 
 func check_device() -> void:
 	var name := OS.get_name()
@@ -16,6 +19,7 @@ func check_device() -> void:
 		isMobile = true
 	elif name == "OSX" or name == "Windows" or name == "WinRT" or name == "X11":
 		isDesktop = true
+
 
 func _on_joy_connection_changed(device_id: int, connected: bool) -> void:
 	if connected:
